@@ -1,0 +1,10 @@
+package de.nlsbck.role.repository;
+
+import de.nlsbck.role.entity.User;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface UserRepository extends JpaRepository<User, Long> {
+
+
+
+}
